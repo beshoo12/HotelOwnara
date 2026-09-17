@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         heroVideo.play().catch(error => {
             console.log("Video autoplay was prevented:", error);
             // Fallback: Add a static background image if video fails
-            heroVideo.parentElement.style.backgroundImage = "url('images/hero-bg.jpg')";
+            heroVideo.parentElement.style.backgroundImage = "url('image/hero.jpg')";
             heroVideo.parentElement.style.backgroundSize = "cover";
             heroVideo.parentElement.style.backgroundPosition = "center";
             heroVideo.style.display = "none";
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
        3. Quick Booking Widget Logic (WhatsApp Redirect)
     ========================================= */
     const quickBookingForm = document.getElementById('quick-booking-form');
-    const hotelWhatsAppNumber = "966546631447"; // ⚠️ Replace with actual WhatsApp number
+    const hotelWhatsAppNumber = "9660551470063"; // ⚠️ Replace with actual WhatsApp number
 
     if (quickBookingForm) {
         quickBookingForm.addEventListener('submit', (e) => {
@@ -1197,7 +1197,7 @@ document.addEventListener('DOMContentLoaded', () => {
        Contact Section - Form Submit to WhatsApp
     ========================================= */
     const contactForm = document.getElementById('contactForm');
-    const hotelWhatsAppNumber = "966546631447"; // ⚠️ Replace with actual number
+    const hotelWhatsAppNumber = "9660551470063"; // ⚠️ Replace with actual number
 
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
@@ -1367,7 +1367,7 @@ document.addEventListener('DOMContentLoaded', () => {
        Footer - Newsletter Form Submit to WhatsApp
     ========================================= */
     const newsletterForm = document.getElementById('newsletterForm');
-    const hotelWhatsAppNumber = "966546631447"; // ⚠️ Replace with actual number
+    const hotelWhatsAppNumber = "9660551470063"; // ⚠️ Replace with actual number
 
     if (newsletterForm) {
         newsletterForm.addEventListener('submit', (e) => {
@@ -1533,7 +1533,7 @@ document.addEventListener('DOMContentLoaded', () => {
        Quick Booking Widget - Enhanced
     ========================================= */
     const quickBookingForm = document.getElementById('quick-booking-form');
-    const hotelWhatsAppNumber = "966546631447"; // ⚠️ Replace with actual number
+    const hotelWhatsAppNumber = "9660551470063"; // ⚠️ Replace with actual number
 
     // Set minimum dates (today for checkin, tomorrow for checkout)
     const today = new Date();
@@ -1712,7 +1712,7 @@ document.addEventListener('DOMContentLoaded', () => {
        7. Smart WhatsApp Booking System
     ========================================= */
     // ⚠️ تم تحديث الرقم بناءً على بيانات البحث
-    const hotelWhatsAppNumber = "966546631447"; 
+    const hotelWhatsAppNumber = "9660551470063"; // Replace with actual number
 
     // Handle all direct booking buttons
     const whatsappButtons = document.querySelectorAll('.whatsapp-book-btn');
