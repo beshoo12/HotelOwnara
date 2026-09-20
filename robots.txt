@@ -1,0 +1,92 @@
+# =========================================
+# robots.txt - فندق أونارا ستاي
+# Ownara Stay Hotel - Madinah, Saudi Arabia
+# =========================================
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Block admin and system directories
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /*.json$
+Disallow: /*?s=
+Disallow: /*?utm_
+Disallow: /*&utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# Block common bot traps
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /xmlrpc.php
+
+# Block specific search engine bots from crawling images (optional)
+User-agent: Baiduspider
+Disallow: /image/
+
+# Allow Google Images
+User-agent: Googlebot-Image
+Allow: /image/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.gif$
+Allow: /*.svg$
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Twitter bot
+User-agent: Twitterbot
+Allow: /
+
+# Facebook bot
+User-agent: facebookexternalhit
+Allow: /
+
+# WhatsApp bot
+User-agent: WhatsApp
+Allow: /
+
+# LinkedIn bot
+User-agent: LinkedInBot
+Allow: /
+
+# Block AI training bots (optional - remove if you want AI to use your data)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Sitemap location
+Sitemap: https://eltageldahaby.online/sitemap.xml
+Sitemap: https://eltageldahaby.online/image-sitemap.xml
+Sitemap: https://eltageldahaby.online/video-sitemap.xml

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- =========================================
+         HOMEPAGE
+    ========================================== -->
+    <url>
+        <loc>https://eltageldahaby.online/</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://eltageldahaby.online/ar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://eltageldahaby.online/en/"/>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/hero-bg.jpg</image:loc>
+            <image:title>فندق أونارا ستاي - المدينة المنورة</image:title>
+            <image:caption>فندق أونارا ستاي - إقامة فاخرة في المدينة المنورة</image:caption>
+            <image:geo_location>المدينة المنورة، السعودية</image:geo_location>
+        </image:image>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/logo.webp</image:loc>
+            <image:title>شعار فندق أونارا ستاي</image:title>
+            <image:caption>شعار شركة أونارا ستاي للإدارة وتشغيل الفنادق</image:caption>
+        </image:image>
+    </url>
+
+    <!-- =========================================
+         MAIN SECTIONS
+    ========================================== -->
+    <url>
+        <loc>https://eltageldahaby.online/#about</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#rooms</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+        <mobile:mobile/>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/room-single.jpg</image:loc>
+            <image:title>استوديو - فندق أونارا ستاي</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/room-double.jpg</image:loc>
+            <image:title>غرفة مزدوجة - فندق أونارا ستاي</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/room-triple.jpg</image:loc>
+            <image:title>غرفة ثلاثية - فندق أونارا ستاي</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/room-suite.jpg</image:loc>
+            <image:title>جناح عائلي - فندق أونارا ستاي</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#services</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#gallery</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/gallery-1.jpg</image:loc>
+            <image:title>معرض الصور - فندق أونارا ستاي</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eltageldahaby.online/image/gallery-2.jpg</image:loc>
+            <image:title>غرف الفندق - أونارا ستاي</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#testimonials</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#faq</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/#contact</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- =========================================
+         POLICY PAGES
+    ========================================== -->
+    <url>
+        <loc>https://eltageldahaby.online/privacy-policy</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://eltageldahaby.online/terms-conditions</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset>

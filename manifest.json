@@ -1,0 +1,88 @@
+{
+  "name": "فندق أونارا ستاي | Ownara Stay Hotel",
+  "short_name": "أونارا ستاي",
+  "description": "فندق أونارا ستاي - إقامة فاخرة في المدينة المنورة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1514",
+  "theme_color": "#c5a059",
+  "categories": ["travel", "hotel", "business"],
+  "icons": [
+    {
+      "src": "image/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "image/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "احجز الآن",
+      "short_name": "حجز",
+      "description": "احجز إقامتك في فندق أونارا ستاي",
+      "url": "/#rooms",
+      "icons": [{"src": "image/shortcut-book.png", "sizes": "96x96"}]
+    },
+    {
+      "name": "الغرف والأجنحة",
+      "short_name": "الغرف",
+      "description": "استعرض غرف وأجنحة الفندق",
+      "url": "/#rooms",
+      "icons": [{"src": "image/shortcut-rooms.png", "sizes": "96x96"}]
+    },
+    {
+      "name": "تواصل معنا",
+      "short_name": "تواصل",
+      "description": "تواصل مع الفندق مباشرة",
+      "url": "/#contact",
+      "icons": [{"src": "image/shortcut-contact.png", "sizes": "96x96"}]
+    }
+  ],
+  "prefer_related_applications": false
+}
